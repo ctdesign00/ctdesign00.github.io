@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  /* CSS GOES HERE */
+  background-color: whitesmoke;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #171717;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  margin: auto;
+  width: 79%;
+}
+
+p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Styling links */
+
+/* Basic styling */
+/* a {
+  color: #86a2ac;
+  text-decoration: none;
+} */
+
+/* More in-depth styling of links */
+/* LoVe & HAte */
+a:link,
+a:visited {
+  color: #86a2ac;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  /* color: whitesmoke; */
+  /* background-color: #86a2ac; */
+  border-bottom: 3px solid #86a2ac;
+  /* padding-bottom: 4px; */
+}
+
+.party {
+  margin-bottom: 42px;
+}
