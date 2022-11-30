@@ -16,8 +16,8 @@ h1 {
 }
 
 p {
-  width: 60%;
-  margin: 0 auto;
+  /* width: 60%;
+  margin: 0 auto; */
 }
 
 img {
@@ -52,4 +52,13 @@ a:active {
 
 .party {
   margin-bottom: 42px;
+}
+
+/* THIS GETS YOUR BOXES NEXT TO EACH OTHER */
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
 }
